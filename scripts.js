@@ -17,5 +17,12 @@ $(document).ready(function() {
 	var width = $("body").width();
 	if (width < 801) {
 		$("nav a.logo img").attr('src', 'images/logo.png').css('width', '65px');
+		$("nav .links a").each(function( ) {
+			if ($(this).html() == "Student Highlights") {
+				$(this).html('Highlights');
+			} else if ($(this).html() == "Student Projects") {
+				$(this).html('Projects');
+			}
+		});
 	}
 });
