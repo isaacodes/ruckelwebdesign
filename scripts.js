@@ -13,3 +13,9 @@ $(document).scroll(function () {
         $('nav').removeClass('shadow');
     }
 });
+$(document).ready(function() {
+	var width = $("body").width();
+	if (width < 801) {
+		$("nav a.logo img").attr('src', 'images/logo.png').css('width', '65px');
+	}
+});

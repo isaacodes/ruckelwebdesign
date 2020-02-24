@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+@import url('mobile_styles.css');
 body, html {
     height: 100vh;
     width: 100vw;
@@ -66,11 +67,10 @@ header h1 {
     left: 2vw;
     transform: translateY(-50%);
     font-family: "Roboto", Arial, sans-serif;
-    color: white;
+    color: #fff;
     font-size: 3em;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
     font-weight: 400;
-    color: #333;
 }
 article {
     position: absolute;
@@ -117,7 +117,7 @@ aside.stick {
 
 .highlights {
     width: calc(100% - 16px);
-    height: 50vh;
+    height: fit-content;
     display: grid;
     grid-template-columns: 3;
     grid-template-rows: 2;
@@ -149,6 +149,7 @@ aside.stick {
 .highlight .desc {
     height: calc(100% - 5vh - 16px - 50px);
     padding: 8px;
+	font-family: 'Roboto', sans-serif;
 }
 .highlight .link {
     height: 50px;
