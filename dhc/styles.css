@@ -1,0 +1,77 @@
+/* Last updated 11/13/2019 */
+body {
+	background: #CCC url("images/logo.png") repeat top left;
+	font-family: Helvetica, sans-serif;
+	line-height: 24px;
+}
+#wrapper {
+	background-color: #B200FF;
+	border: 2px solid #FFF;
+	margin: auto;
+	overflow: auto;
+	width: 75%;
+}
+header {
+	background-color: #B200FF;
+	border-bottom: 2px solid #FFF;
+	overflow: auto;
+}
+header h1 {
+	font-size: 60px;
+	text-align: center;
+}
+nav {
+	background-color: #0CF;
+	font-size: 14px;
+	text-align: center;
+}
+nav a {
+	text-decoration: none;
+}
+aside {
+	font-size: 14px;
+	padding: 15px;
+	width: 20%;
+	float: right;
+	text-align: center;
+}
+article {
+	background-color: #FFF;
+	overflow: auto;
+	width: 70%;
+	float: left;
+	text-align: justify;
+	padding: 20px;
+}
+footer {
+	background-color: #0CF;
+	border-top: 2px solid #FFF;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+}
+footer a {
+	color: #000;
+}
+footer h6 {
+	margin: 0;
+}
+blockquote {
+	color: #F6A82C;
+	font-family: Arial,sans-serif;
+}
+.aligncenter {
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.alignright {
+	float: right;
+}
+table, td, th {
+	border: 1px solid black;
+}
+span {
+	float: left;
+	width: 200px;
+}

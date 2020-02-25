@@ -1,0 +1,86 @@
+/* Last Updated 11-6-2019 */
+aside {
+	float: right;
+	padding: 20px;
+	width: 210px;
+	font-size: 14px;
+	text-align: center;
+}
+article {
+	float: left;
+	overflow: auto;
+	padding: 20px;
+	text-align: justify;
+	width: 710px;
+}
+footer {
+	clear: both;
+	color: #fff;
+	text-align: center;
+	background-color: #496d2b;
+	border-top: 2px solid #459302;
+	padding: 4px 0px 2px;
+}
+.alignleft {
+	float: left;
+	padding-right: 20px;
+}
+.alignright {
+	float: right;
+	padding-left: 20px;
+}
+form span {
+	float: left;
+	width: 200px;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	background: #43b5f7 url('images/lake_bg.jpg') no-repeat top center;
+}
+header {
+	color: #fff;
+	text-align: center;
+	background: #a6c20a url('images/header_bg.png') no-repeat top center;
+	height: 152px;
+	padding: 20px;
+}
+nav {
+	text-align: center;
+	background-color: #496d2b;
+	border-bottom: 2px solid #459302;
+	border-top: 2px solid #459302;
+	padding: 10px 0px 4px;
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+th, td {
+	text-align: center;
+}
+.author {
+	color: #459302;
+	font-style: italic;
+}
+#wrapper {
+	background-color: #a5c407;
+	border: 2px solid #459302;
+	margin: auto;
+	width: 1000px;
+}
+header h1 {
+	margin: 0;
+}
+nav a {
+	padding: 0px 10px;
+}
+footer h6 {
+	margin: 0;
+	padding: 0px 20px;
+}
+form span {
+	width: 200px;
+	 padding: 0px 5px;
+}
