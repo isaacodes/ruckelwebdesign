@@ -46,28 +46,11 @@
 	}
 	
 	.highlights {
-		grid-template-columns: 1!important;
-		grid-template-rows: 5!important;
-		grid-auto-columns: 100%!important;
-		height: fit-content!important;
-		grid-auto-rows: 20vh!important;
+		display: block!important;
+		width: calc(100vw - 32px)!important;
 	}
 	.highlight {
-		grid-column: 1!important;
-	}
-	.highlight.one {
-		grid-row: 1!important;
-	}
-	.highlight.two {
-		grid-row: 2!important;
-	}
-	.highlight.three {
-		grid-row: 3!important;
-	}
-	.highlight.four {
-		grid-row: 4!important;
-	}
-	.highlight.five {
-		grid-row: 5!important;
+		width: 100%;
+		margin-bottom: 2vh;
 	}
 }
