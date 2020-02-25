@@ -17,12 +17,14 @@ body, html {
     background: #20add888;
     color: #fff;
 }
-*::-webkit-scrollbar {
-    width: 5px;
-    background: #eee;
-}
-*::-webkit-scrollbar-thumb {
-    background: #333;
+@media only screen and (min-width: 801px) {
+	*::-webkit-scrollbar {
+		width: 5px;
+		background: #eee;
+	}
+	*::-webkit-scrollbar-thumb {
+		background: #333;
+	}
 }
 nav {
     height: 65px;

@@ -27,30 +27,42 @@
 		font-size: 8pt;
 		margin: 2vw!important;
 	}
-	
 	header h1 {
 		color: #fff!important;
 		text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9)!important;
 	}
 	
 	article {
-		width: calc(100% - 32px)!important;
+		width: calc(100vw - 32px)!important;
 		position: relative!important;
 		top: 0px!important;
+		padding: 8px!important;
+		left: 0px!important;
 	}
 	aside {
 		position: relative!important;
-		width: calc(100% - 32px)!important;
+		width: calc(100% - 16px)!important;
 		right: 0px!important;
 		top: 0px!important;
 	}
 	
 	.highlights {
 		display: block!important;
-		width: calc(100vw - 32px)!important;
+		width: calc(100% - 8px)!important;
 	}
 	.highlight {
-		width: 100%;
-		margin-bottom: 2vh;
+		width: calc(100% - 8px)!important;
+		margin-bottom: 2vh!important;
+	}
+	.highlight .name {
+		height: 35px!important;
+		line-height: 35px!important;
+		font-size: 1.3em!important;
+	}
+	.highlight .desc {
+		height: auto!important;
+		width: calc(100% - 16px)!important;
+		padding: 8px!important;
+		text-align: justify;
 	}
 }
